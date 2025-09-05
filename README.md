@@ -21,16 +21,17 @@
 
 
 ---
+
 ## 1. Giới thiệu hệ thống
-Hệ thống Quản lý Đặt vé Xem phim được xây dựng nhằm hỗ trợ người dùng dễ dàng đặt vé trực tuyến, tra cứu lịch chiếu và quản lý vé đã đặt.  
-Đối với quản trị viên, hệ thống cung cấp chức năng quản lý phim, suất chiếu, phòng chiếu và theo dõi doanh thu.  
+Hệ thống Chat Nhóm bằng RMI được xây dựng nhằm hỗ trợ nhiều người dùng có thể giao tiếp trực tuyến với nhau thông qua công nghệ **Java RMI (Remote Method Invocation)**.  
+Ứng dụng cho phép nhiều client cùng kết nối đến server và thực hiện gửi, nhận tin nhắn trong thời gian thực.  
 
 **Các chức năng chính:**
-- Người dùng:
-  - Đăng ký / đăng nhập
-  - Xem danh sách phim, lịch chiếu
-  - Đặt vé xem phim, xem lại vé đã đặt
-- Quản trị viên:
-  - Quản lý phim
-  - Quản lý lịch chiếu, phòng chiếu
-  - Quản lý vé và doanh thu
+- Người dùng (Client):
+  - Kết nối tới server chat
+  - Gửi tin nhắn đến nhóm
+  - Nhận tin nhắn từ các thành viên khác
+- Quản trị viên (Server):
+  - Quản lý danh sách client đang kết nối
+  - Phân phối tin nhắn đến tất cả client trong nhóm
+
