@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    Chat Nhóm Bằng giao thức RMI
+    Chat Nhóm bằng giao thức RMI
 </h2>
 <div align="center">
     <p align="center">
@@ -34,5 +34,6 @@ Hệ thống Chat Nhóm bằng RMI được xây dựng nhằm hỗ trợ nhiề
 - Quản trị viên (Server):
   - Quản lý danh sách client đang kết nối
   - Phân phối tin nhắn đến tất cả client trong nhóm
+
 
 
