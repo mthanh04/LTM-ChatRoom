@@ -121,7 +121,6 @@ rmiregistry
 
 #### 🔹 Bước 4: Chạy file ChatClient.java
 - Giao diện chat sẽ hiện ra
-- 
 
 ## 👤 5. Liên hệ
 **Họ tên**: Trịnh Minh Thành.  
@@ -129,4 +128,5 @@ rmiregistry
 **Email**: thanhmeo260604@gmail.com.
 
 © 2025 Faculty of Information Technology, DaiNam University. All rights reserved.
+
 
