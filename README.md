@@ -84,7 +84,7 @@
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
 ### 🔧 Yêu cầu hệ thống
-- **Java Development Kit (JDK)**: Phiên bản 8 trở lên  
+- **Java Development Kit (JDK)**: Phiên bản 11 trở lên  
 - **Hệ điều hành**: Windows / macOS / Linux  
 - **IDE khuyến nghị**: IntelliJ IDEA, Eclipse, hoặc NetBeans  
 - **Bộ nhớ**: Tối thiểu 512MB RAM  
@@ -128,5 +128,6 @@ rmiregistry
 **Email**: thanhmeo260604@gmail.com.
 
 © 2025 Faculty of Information Technology, DaiNam University. All rights reserved.
+
 
 
