@@ -51,7 +51,7 @@
   - `JFrame`: cửa sổ chính  
   - `JTextArea`: hiển thị nội dung chat  
   - `JTextField`: nhập tin nhắn  
-  - `JButton`: gửi tin nhắn  
+  - `JButton`: gửi tin nhắn, cấm chat, đuổi khỏi phòng chat, rời phòng
   - `JScrollPane`: hỗ trợ cuộn lịch sử chat  
 
 ---
@@ -59,24 +59,31 @@
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="docs/chat_mess.png" alt="Server UI" width="700"/>
+  <img src="docs/giao_dien_nhap_ten.jpg" alt="Server UI" width="700"/>
 </p>
 <p align="center">
-  <em>Hình 1: Giao diện chat chính của các client</em>
+  <em>Hình 1: Giao diện nhập tên</em>
 </p>
 
 <p align="center">
-  <img src="docs/mess.png" alt="Client UI" width="500"/>
+  <img src="docs/giao_dien_chat_chinh.jpg" alt="Client UI" width="500"/>
 </p>
 <p align="center">
   <em>Hình 2: Giao diện Client chat nhóm</em>
 </p>
 
 <p align="center">
-  <img src="docs/mess.png" alt="Message Broadcast" width="700"/>
+  <img src="docs/giao_dien_cam_chat.jpg" alt="Message Broadcast" width="700"/>
 </p>
 <p align="center">
-  <em>Hình 3: Thông báo khi có client rời khỏi nhóm chat</em>
+  <em>Hình 3: Giao diện khi bị cấm chat</em>
+</p>
+
+<p align="center">
+  <img src="docs/giao_dien_kick.jpg" alt="Message Broadcast" width="700"/>
+</p>
+<p align="center">
+  <em>Hình 3: Giao diện khi bị đuổi khỏi phòng chat</em>
 </p>
 
 ---
@@ -128,6 +135,7 @@ rmiregistry
 **Email**: thanhmeo260604@gmail.com.
 
 © 2025 Faculty of Information Technology, DaiNam University. All rights reserved.
+
 
 
 
