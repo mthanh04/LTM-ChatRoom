@@ -9,4 +9,10 @@ public interface ClientInterface extends Remote {
 	void receiveMessage(String sender, String message) throws RemoteException;
 
 	void receiveSystemMessage(String message) throws RemoteException;
+
+	void forceDisconnect(String reason) throws RemoteException;
+
+	void updateClientList(String[] clients) throws RemoteException;
+
+	void setMuted(boolean muted) throws RemoteException;
 }

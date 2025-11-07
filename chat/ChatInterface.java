@@ -9,4 +9,10 @@ public interface ChatInterface extends Remote {
 	void removeClient(ClientInterface client) throws RemoteException;
 
 	void broadcastMessage(String sender, String message) throws RemoteException;
+
+	void kickClient(String adminName, String targetName) throws RemoteException;
+
+	void muteClient(String adminName, String targetName, boolean mute) throws RemoteException;
+
+	String getAdminName() throws RemoteException;
 }
